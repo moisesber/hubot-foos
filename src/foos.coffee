@@ -56,7 +56,6 @@ module.exports = (robot) ->
       robot.brain.data.foos[getRoom(msg)] = []
 
   robot.hear /foos\sme/i, (msg) ->
-#    addPlayer(msg, '@' + msg.message.user.mention_name)
     addPlayer(msg, '@' + msg.message.user.name)
       
   robot.hear /foos\s(@.*)/i, (msg) ->
