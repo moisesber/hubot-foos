@@ -42,6 +42,10 @@ module.exports = (robot) ->
       
   addPlayer = (msg, nick) ->
     init msg
+
+    if nick in [ 'undefined', '@undefined' ]
+      msg.send 'Invalid user name nick'
+
     players = robot.brain.data.foos[getRoom(msg)]
     players.push(nick)
     showLineup msg
@@ -52,7 +56,8 @@ module.exports = (robot) ->
       robot.brain.data.foos[getRoom(msg)] = []
 
   robot.hear /foos\sme/i, (msg) ->
-    addPlayer(msg, '@' + msg.message.user.mention_name)
+#    addPlayer(msg, '@' + msg.message.user.mention_name)
+    addPlayer(msg, '@' + msg.message.user.name)
       
   robot.hear /foos\s(@.*)/i, (msg) ->
     addPlayer(msg, msg.match[1])

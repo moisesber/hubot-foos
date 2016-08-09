@@ -1,13 +1,13 @@
 {
-  "name": "hubot-foos",
-  "description": "A hubot script for foosball gathering.",
-  "version": "0.0.5",
+  "name": "hubot-yet-another-foos",
+  "description": "A hubot script for foosball gathering. Based on https://www.npmjs.com/package/hubot-foos",
+  "version": "0.0.1",
   "author": {
-    "name": "Aegir Thorsteinsson",
-    "email": "aegir@thorsteinsson.is"
+    "name": "Moises Rodrigues",
+    "email": "moisesber@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thorsteinsson/hubot-foos",
+  "homepage": "https://github.com/moisesber/hubot-foos",
   "keywords": [
     "hubot",
     "hubot-scripts"
@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thorsteinsson/hubot-foos.git"
+    "url": "git://github.com/moisesber/hubot-foos.git"
   },
   "bugs": {
-    "url": "https://github.com/thorsteinsson/hubot-foos/issues"
+    "url": "https://github.com/moisesber/hubot-foos/issues"
   },
   "dependencies": {
     "hubot": ">= 2.6.0",
