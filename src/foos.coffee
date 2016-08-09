@@ -2,12 +2,12 @@
 #   Add users to a foosball match.
 #
 # Commands:
-#   foos me - Add a player.
-#   foos @nick - Add @nick as a player.
-#   foos remove - Remove a player.
-#   foos clear - Remove everyone.
-#   foos show - Show players.
-#   foos table - Show a picture of the foosball table.
+#   foos me - Add a player
+#   foos @nick - Add @nick as a player
+#   foos remove - Remove a player
+#   foos clear - Remove everyone
+#   foos show - Show players
+#   foos table - Show a picture of the foosball table
 #
 # Dependencies:
 #   lodash
